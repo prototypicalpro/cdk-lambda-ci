@@ -4,4 +4,4 @@ import * as cdk from '@aws-cdk/core';
 import { CdkLambdaCiStack } from '../lib/cdk-lambda-ci-stack';
 
 const app = new cdk.App();
-new CdkLambdaCiStack(app, 'CdkLambdaCiStack');
+const stack = new CdkLambdaCiStack(app, 'CdkLambdaCiStack');
